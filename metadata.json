@@ -1,0 +1,12 @@
+{
+  "name": "MyLocalServices Boston",
+  "description": "A neighborly directory for the top home services in the Boston area for 2026, featuring AI-powered search, mapping, and visual inspiration.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

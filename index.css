@@ -1,0 +1,19 @@
+@keyframes placeholderFadeIn {
+  from {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 0.7;
+    transform: translateY(0);
+  }
+}
+
+textarea::placeholder {
+  animation: placeholderFadeIn 1.2s ease-out forwards;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::placeholder {
+  opacity: 0.3;
+}
